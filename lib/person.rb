@@ -4,5 +4,5 @@ class Person
 
   def initialize(attributes)
     attributes.each {|key, value| Person.send(("#{{key}="), value)}
-  end  
+  end
 end
