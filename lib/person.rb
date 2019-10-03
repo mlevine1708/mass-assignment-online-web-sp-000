@@ -1,4 +1,4 @@
-require pry 
+ 
 
 class Person
   attr_accessor :name, :birthday, :hair_color, :eye_color, :height,
@@ -10,4 +10,4 @@ class Person
       self.send(("#{{key}="), value)
       end
     end
-end
+  end
